@@ -18,7 +18,7 @@ print('This is the homework #1 for {}'.format(name))
 # Question 2
 # Using the newline character, use ONE print statement to display the following text:
 # Southern trees bear strange fruit,
-# (Blood on the leaves and blood at the root,)
+# (Blood on the leaves and blood at the root)
 # Black body swinging in the southern breeze,
 # Strange fruit hanging from the poplar trees.
 
@@ -49,7 +49,7 @@ days_until_christmas = "168"
 
 
 # Question 6
-# Ask the user: "How many centimetres long is the side of your square"
+# Ask the user: "How many centimetres long is the side of your square?"
 # Save the result in a variable called "side_length"
 
 # Create a new variable called "area" that uses "side_length" to determine the
