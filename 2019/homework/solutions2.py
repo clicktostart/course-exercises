@@ -13,34 +13,37 @@ print('This is the homework #1 for {}'.format(name))
 
 
 # Question 1
-# Create a function to called 'Hello'. This function takes no parameters/input
+# Create a function to called 'hello'. This function takes no parameters/input
 # and prints 'Hello There' to the screen.
 
 def hello():
     print("Hello There")
 
 
+
 # Question 2
-# Create a function to called 'HelloThereName'. This function takes one parameters/input
-# called name. It prints 'Hello There _______ ' to the screen where the blank is replaced
-# by the name entered.
+# Create a function to called 'hello_there_name'. This function takes one parameter/input
+# called name. It prints 'Hello There _______ ' to the screen where the blank space is
+# replaced by the name entered.
 
 def hello_there_name(name):
     print("Hello There {}".format(name))
 
 
+
 # Question 3
-# Create a function call 'RectArea' that takes in two parameters/inputs called
+# Create a function call 'rect_area' that takes in two parameters/inputs called
 # length and width. This function returns the calculated area of a rectangle using the
 # length and width provided.
-# Area of a rectangle = length * width
+# Note: Area of a rectangle = length * width
 
 def rect_area(length, width):
     return length * width
 
 
+
 # Question 4
-# What value does the following function return. Print that value?
+# Look at the function below.
 #
 # def func1():
 #   num1 = 36
@@ -53,21 +56,21 @@ def rect_area(length, width):
 #   div = prod2/8
 #   return div
 
+# Print what value you think it outputs to the screen.
+
 print(4)
 
 
+
 # Question 5
-# What do the following function calls print to the screen? Print your answers.
+# Look the function below.
 #
-# def HeyThere(first_name, last_name):
+# def hey_there(first_name, last_name):
 #   print("Hey There, my name is {} {}. I'm very famous, maybe you've heard of me.".format(first_name, last_name))
 #
-# HeyThere("Jeff", "Johns")
-# HeyThere("Clarke, "Kent")
-# HeyThere("Bruce", "Wayne")
-# HeyThere("Wally", "West")
+# Print the result of the following function calls to the screen.
+    # HeyThere("Bruce", "Wayne")
+    # HeyThere("Wally", "West")
 
-print("Hey There, my name is Jeff Johns. I'm very famous, maybe you've heard of me.")
-print("Hey There, my name is Clarke Kent. I'm very famous, maybe you've heard of me.")
 print("Hey There, my name is Bruce Wayne. I'm very famous, maybe you've heard of me.")
 print("Hey There, my name is Wally West. I'm very famous, maybe you've heard of me.")
